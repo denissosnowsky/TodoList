@@ -1,0 +1,50 @@
+.wrapper {
+  width: 100%;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 1365px) {
+  .wrapper {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .wrapper {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .wrapper {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wrapper {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 399px) {
+  .wrapper {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}

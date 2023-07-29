@@ -1,0 +1,27 @@
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.wrapperLarge {
+  height: 100px;
+  width: 100px;
+}
+
+.wrapperSmall {
+  height: 80px;
+  width: 80px;
+}
+
+@media only screen and (max-width: 1365px) {}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 599px) {}
+
+@media only screen and (max-width: 399px) {}

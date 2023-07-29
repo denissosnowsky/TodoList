@@ -1,0 +1,35 @@
+.wrapper {
+  background-color: azure;
+  border-radius: 20px;
+  padding: 50px;
+  width: 100%;
+  flex-grow: 1;
+}
+
+@media only screen and (max-width: 1365px) {
+  .wrapper {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .wrapper {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 599px) {
+}
+
+@media only screen and (max-width: 399px) {
+  .wrapper {
+    padding: 7px;
+    padding-top: 15px;
+  }
+}

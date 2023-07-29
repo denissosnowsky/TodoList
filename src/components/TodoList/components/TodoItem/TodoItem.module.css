@@ -1,0 +1,130 @@
+.wrapper {
+  border-radius: 20px;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #999;
+  background-color: rgb(255, 249, 172);
+}
+
+.left {
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+}
+
+.right {
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  padding-left: 20px;
+}
+
+.right i {
+  color: #999;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.right i:last-of-type {
+  color: red;
+  font-size: 25px;
+}
+
+.center {
+  flex-grow: 1;
+  overflow-wrap: anywhere;
+}
+
+.right i.active {
+  font-size: 30px;
+}
+
+.right i:first-of-type.active {
+  color: green;
+}
+
+.right i:nth-of-type(2).active {
+  color: orange;
+}
+
+.right i:nth-of-type(3).active {
+  color: blue;
+}
+
+@media only screen and (max-width: 1365px) {
+  .wrapper {
+    padding: 20px;
+  }
+
+  .right {
+    gap: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (max-width: 991px) {
+}
+
+@media only screen and (max-width: 767px) {
+  .right i {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .right i:first-of-type {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .right i:nth-of-type(2) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .right i:nth-of-type(3) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .right i:last-of-type {
+    margin-left: 0px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}
+
+@media only screen and (max-width: 399px) {
+  .right i {
+    font-size: 17px;
+  }
+
+  .wrapper .center, .left {
+    font-size: 17px;
+  }
+}

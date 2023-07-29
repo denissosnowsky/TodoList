@@ -1,0 +1,86 @@
+.wrapper {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  width: 100%;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  background-color: rgb(255, 223, 80);
+  z-index: 1;
+}
+
+.wrapper::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 2px;
+  background-color: #aaa;
+}
+
+.left,
+.right {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  width: 60%;
+}
+
+@media only screen and (max-width: 1365px) {
+  .wrapper {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .wrapper {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .wrapper {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wrapper {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .right {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 399px) {
+  .wrapper {
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: center;
+  }
+
+  .left {
+    display: none;
+  }
+}

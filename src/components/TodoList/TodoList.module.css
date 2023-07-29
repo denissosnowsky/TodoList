@@ -1,0 +1,45 @@
+.wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.sheetBlock {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.noTodos {
+  text-align: center;
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 1365px) {
+}
+
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (max-width: 991px) {
+}
+
+@media only screen and (max-width: 767px) {
+  .noTodos {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+}
+
+@media only screen and (max-width: 399px) {
+  .wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

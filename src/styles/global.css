@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(255, 223, 80);
+}
+
+textarea,
+input {
+  outline: none;
+  border: none;
+  position: relative;
+  display: block;
+  border-bottom: 1px solid #aaa;
+  background-color: rgb(255, 223, 80);
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #ccc;
+  
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #777;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 1365px) {}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 599px) {}
+
+@media only screen and (max-width: 399px) {}
