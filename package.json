@@ -1,7 +1,8 @@
 {
   "scripts": {
     "compile": "npx webpack",
-    "compile:watch": "npx webpack --watch"
+    "compile:watch": "npx webpack --watch",
+    "compile:prod": "NODE_ENV=production npx webpack"
   },
   "devDependencies": {
     "@babel/core": "^7.22.9",
