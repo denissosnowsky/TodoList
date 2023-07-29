@@ -5,12 +5,18 @@
   justify-content: center;
   gap: 30px;
   margin-bottom: 30px;
+  height: 40px;
 }
 
 .button {
   font-size: 30px;
   color: dodgerblue;
   cursor: pointer;
+  transition: all .2s;
+}
+
+.button:hover {
+  font-size: 35px;
 }
 
 @media only screen and (max-width: 1365px) {
